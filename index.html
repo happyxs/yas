@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Boa noite 💙</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Great+Vibes&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="aurora"><i></i><i></i><i></i></div>
+<div class="moon" id="moon"></div>
+<canvas id="c"></canvas>
+
+<section class="screen" id="intro">
+  <p class="kicker">uma mensagem de última hora</p>
+  <h1 class="script">psiu…</h1>
+  <p class="sub">tenho uma coisinha pra você antes de dormir</p>
+  <button class="btn" id="start">abrir 💙</button>
+</section>
+
+<section class="screen hide" id="scene">
+  <h1 id="msg"></h1>
+  <div class="words"><div class="w script"></div><div class="w script"></div><div class="w script"></div></div>
+  <div class="slw" id="slw">
+    <div class="slider" id="sl">
+      <div class="fill" id="fill"></div>
+      <div class="hint" id="hint">arrasta pra direita</div>
+      <div class="knob" id="knob" tabindex="0" role="slider" aria-valuemin="0" aria-valuemax="100">♥</div>
+    </div>
+    <div class="pct" id="pct">0%</div>
+  </div>
+</section>
+
+<section class="screen hide" id="final">
+  <h2 id="fin"></h2>
+  <small id="small">eu disse que era nada de maiskkk</small>
+  <button class="btn mini" id="again">de novo 💙</button>
+</section>
+
+<div class="flash" id="flash"></div>
+<script src="script.js"></script>
+</body>
+</html>
